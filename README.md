@@ -1,11 +1,11 @@
-# vite-plugin-ngrok
+# @gglennd/ngrok
 
 Vite plugin for ngrok tunneling. Expose your local Vite dev server to the internet with a single line of configuration.
 
 ## Installation
 
 ```bash
-npm install -D vite-plugin-ngrok @ngrok/ngrok
+npm install -D @gglennd/ngrok @ngrok/ngrok
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ Add the plugin to your `vite.config.ts`:
 
 ```ts
 import { defineConfig } from "vite";
-import ngrok from "vite-plugin-ngrok";
+import ngrok from "@gglennd/ngrok";
 
 export default defineConfig({
   plugins: [
@@ -44,4 +44,4 @@ All other [ngrok configuration options](https://ngrok.com/docs/ngrok-agent/confi
 
 ## License
 
-ISC
+MIT

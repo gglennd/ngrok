@@ -1,6 +1,6 @@
 {
   "name": "@gglennd/ngrok",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vite plugin for ngrok tunneling",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
