@@ -1,0 +1,43 @@
+{
+  "name": "@gglennd/ngrok",
+  "version": "1.0.0",
+  "description": "Vite plugin for ngrok tunneling",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "vite",
+    "vite-plugin",
+    "ngrok",
+    "tunnel",
+    "tunneling",
+    "localhost",
+    "dev-server"
+  ],
+  "author": "gglennd",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gglennd/ngrok"
+  },
+  "bugs": {
+    "url": "https://github.com/gglennd/ngrok/issues"
+  },
+  "homepage": "",
+  "packageManager": "pnpm@10.33.2",
+  "peerDependencies": {
+    "@ngrok/ngrok": ">=1.0.0",
+    "vite": ">=4.0.0"
+  },
+  "devDependencies": {
+    "@ngrok/ngrok": "^1.7.0",
+    "@types/node": "^25.9.1",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.16"
+  }
+}
